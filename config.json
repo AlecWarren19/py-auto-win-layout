@@ -1,0 +1,54 @@
+/*
+
+Example / Guide JSON: 
+
+{
+    "profile": { // DO NOT MODIFY 
+        // settings for the notepad++
+        "notepad++": {  // a unique identifying portion of the name/title of target window <String>
+                        // given idenifier must match a substring of desired window to identify desired window properly.
+                        // it is not case sensitive.
+                        // if a given identifier does match any substrings of any open windows, nothing will happen
+                        // if multiple windows match the identifier, the config will be applied to all of them
+            "width": 1.0,  // desired window width as a percentage [0.0, 1.0] (fractions amd decimals both work) <String>
+            "height": 4/10,  // desired window height as a percentage [0.0, 1.0] (fractions amd decimals both work) <String>
+            "screen": "secondary"  // which screen you would like the window to be displayed on <String>
+        },
+        // settings for the settings window
+        "settings": {
+            // excluding a width or height value is the same as setting it equal to 1
+            "height": 0.6,
+            "screen": "secondary"
+        },
+        // settings for all google chrome windows
+        "google chrome": {
+            // by excluding both width and height values, application will be maximized: (width = 1, height = 1)
+            "screen": "primary"
+        }
+
+    },
+    // enter the desired labels for you monitors (screens) in the order they are numbered in your Windows display settings
+    // (i.e. in settings, main display is labeled as 1, so put your desired label for the main display first in the list)
+    "screen_names": ["primary", "secondary"]
+}
+
+*/
+
+// fill in this blank outline JSON below to configure to your liking 
+// just copy and paste a window section for each new window config you want to add 
+// (make sure there is comma following the closing bracket for every window section excpt the last section)
+{
+    "profile": {  // DO NOT MODIFY
+        "*window 1 name*": {   
+            "width": null,
+            "height": null,
+            "screen": ""
+        }, 
+        "*window 2 name*": {
+            "width": null,
+            "height": null,
+            "screen": ""
+        }
+    },
+    "screen_names": []
+}
