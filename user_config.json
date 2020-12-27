@@ -1,0 +1,21 @@
+// fill in this starter JSON below to configure to your liking 
+// just copy and paste a window section for each new window config you want to add 
+// (make sure there is comma following the closing bracket for every window section excpt the last section)
+
+// *** refer to config_help.json for help and more detailed instructions ***
+
+{
+    "profile": {  
+        "*put a window name identifier here*": {   
+            "width": null,
+            "height": null,
+            "screen": ""
+        }, 
+        "*put another window name identifier here*": {
+            "width": null,
+            "height": null,
+            "screen": ""
+        }
+    },
+    "screen_names": []
+}

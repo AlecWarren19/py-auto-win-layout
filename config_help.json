@@ -33,22 +33,3 @@ Example / Guide JSON:
 }
 
 */
-
-// fill in this blank outline JSON below to configure to your liking 
-// just copy and paste a window section for each new window config you want to add 
-// (make sure there is comma following the closing bracket for every window section excpt the last section)
-{
-    "profile": {  // DO NOT MODIFY
-        "*window 1 name*": {   
-            "width": null,
-            "height": null,
-            "screen": ""
-        }, 
-        "*window 2 name*": {
-            "width": null,
-            "height": null,
-            "screen": ""
-        }
-    },
-    "screen_names": []
-}
